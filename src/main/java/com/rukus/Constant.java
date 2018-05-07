@@ -14,6 +14,6 @@ public class Constant
     }
 
     public static class CLOUDINARY {
-        public static String URL = "cloudinary://753416471616966:m3Q5pCP5CWxrAZ_z9bNey_ihAKc@hei15wa3k";
+        public static String URL = "cloudinary://918251148958913:eyFAGuZjbj87KgvqShKI6zXzSCY@hnouxaooh/";
     }
 }
