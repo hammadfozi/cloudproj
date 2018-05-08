@@ -9,6 +9,7 @@ import com.rukus.service.RoomService;
 import com.rukus.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.propertyeditors.CustomDateEditor;
+import org.springframework.context.annotation.Lazy;
 import org.springframework.format.annotation.DateTimeFormat;
 import org.springframework.security.authentication.AuthenticationTrustResolver;
 import org.springframework.security.core.Authentication;
@@ -38,7 +39,7 @@ public class Hotel {
     private final AuthenticationTrustResolver authenticationTrustResolver;
 
     @Autowired
-    public Hotel(UserService userService, RoomService roomService, BookingService bookingService, AuthenticationTrustResolver authenticationTrustResolver) {
+    public Hotel(UserService userService, RoomService roomService, @Lazy BookingService bookingService, AuthenticationTrustResolver authenticationTrustResolver) {
         this.userService = userService;
         this.roomService = roomService;
         this.bookingService = bookingService;
