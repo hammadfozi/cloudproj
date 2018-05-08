@@ -34,7 +34,7 @@ public class Admin {
     private final UserProfileService userProfileService;
 
     @Autowired
-    public Admin(@Lazy UserService userService, RoomService roomService, RoomImageService roomImagesService, BookingService bookingService, UserProfileService userProfileService) {
+    public Admin(@Lazy UserService userService, RoomService roomService, RoomImageService roomImagesService, @Lazy BookingService bookingService, UserProfileService userProfileService) {
         this.userService = userService;
         this.roomService = roomService;
         this.roomImagesService = roomImagesService;

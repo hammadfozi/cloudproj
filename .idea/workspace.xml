@@ -8,7 +8,7 @@
   <component name="ChangeListManager">
     <list default="true" id="89bfb5a6-6527-4f5b-a6a2-7079042816a1" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rukus/security/Security.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rukus/security/Security.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -118,8 +118,8 @@
       <file leaf-file-name="Hotel.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/rukus/controller/Hotel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="388">
-              <caret line="132" column="44" lean-forward="true" selection-start-line="132" selection-start-column="44" selection-end-line="132" selection-end-column="44" />
+            <state relative-caret-position="187">
+              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
               <folding>
                 <element signature="e#1224#1235#0" />
                 <element signature="method#Hotel#0;class#Hotel#0" />
@@ -147,7 +147,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="admin.jsp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Security.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/rukus/security/Security.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="23" column="56" lean-forward="true" selection-start-line="23" selection-start-column="56" selection-end-line="23" selection-end-column="56" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="admin.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin.jsp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="299">
@@ -410,8 +419,6 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/booking.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/rukus/security/CustomAuthenticationService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/rukus/controller/Admin.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/rukus/controller/Hotel.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/rukus/security/Security.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/rukus/security/CustomUserDetailsService.java" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/5652a6c1-52a7-4d87-899c-a845ff44d1d2/console.sql" />
         <option value="$PROJECT_DIR$/src/main/resources/data.sql" />
@@ -429,6 +436,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/rukus/Constant.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/rukus/controller/App.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/rukus/controller/Hotel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/rukus/security/Security.java" />
       </list>
     </option>
   </component>
@@ -705,7 +714,7 @@
       <workItem from="1525252158449" duration="390000" />
       <workItem from="1525333935062" duration="1312000" />
       <workItem from="1525679655682" duration="3224000" />
-      <workItem from="1525756567124" duration="2635000" />
+      <workItem from="1525756567124" duration="3360000" />
     </task>
     <task id="LOCAL-00001" summary="- Updated project base on Spring Boot&#10;- Used spring jpa repositories">
       <created>1521026834655</created>
@@ -826,11 +835,25 @@
       <option name="project" value="LOCAL" />
       <updated>1525759140508</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="asd">
+      <created>1525759215036</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1525759215036</updated>
+    </task>
+    <task id="LOCAL-00019" summary="asd">
+      <created>1525759431102</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1525759431102</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="134159000" />
+    <option name="totallyTimeSpent" value="134884000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -924,7 +947,8 @@
     <MESSAGE value="- added variables in properties" />
     <MESSAGE value="- Implemented cloudinary" />
     <MESSAGE value="masd" />
-    <option name="LAST_COMMIT_MESSAGE" value="masd" />
+    <MESSAGE value="asd" />
+    <option name="LAST_COMMIT_MESSAGE" value="asd" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1205,13 +1229,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/rukus/security/Security.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-273">
-          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/rukus/security/CustomUserDetailsService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="174">
@@ -1353,36 +1370,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/rukus/controller/Hotel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="132" column="44" lean-forward="true" selection-start-line="132" selection-start-column="44" selection-end-line="132" selection-end-column="44" />
-          <folding>
-            <element signature="e#1224#1235#0" />
-            <element signature="method#Hotel#0;class#Hotel#0" />
-            <element signature="docComment;method#initBinder#0;class#Hotel#0" />
-            <element signature="method#initBinder#0;class#Hotel#0" />
-            <element signature="docComment;method#rooms#0;class#Hotel#0" />
-            <element signature="method#rooms#0;class#Hotel#0" />
-            <element signature="docComment;method#book#0;class#Hotel#0" />
-            <element signature="e#2582#2645#0" />
-            <element signature="method#book#0;class#Hotel#0" />
-            <element signature="docComment;method#bookRoomWithId#0;class#Hotel#0" />
-            <element signature="e#3357#3397#0" />
-            <element signature="method#bookRoomWithId#0;class#Hotel#0" />
-            <element signature="e#5163#5243#0" />
-            <element signature="method#booking#0;class#Hotel#0" />
-            <element signature="method#updateBooking#0;class#Hotel#0" />
-            <element signature="method#deleteBooking#0;class#Hotel#0" />
-            <element signature="method#confirmBooking#0;class#Hotel#0" />
-            <element signature="method#completeBooking#0;class#Hotel#0" />
-            <element signature="method#getPrincipal#0;class#Hotel#0" />
-            <element signature="docComment;method#isAnonymous#0;class#Hotel#0" />
-            <element signature="method#isAnonymous#0;class#Hotel#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="299">
@@ -1508,6 +1495,43 @@
             <element signature="n#c:otherwise#0;n#c:choose#6;n#jsp:root#0;n#!!top" />
             <element signature="n#h4#0;n#div#0;n#div#7;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/rukus/controller/Hotel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+          <folding>
+            <element signature="e#1224#1235#0" />
+            <element signature="method#Hotel#0;class#Hotel#0" />
+            <element signature="docComment;method#initBinder#0;class#Hotel#0" />
+            <element signature="method#initBinder#0;class#Hotel#0" />
+            <element signature="docComment;method#rooms#0;class#Hotel#0" />
+            <element signature="method#rooms#0;class#Hotel#0" />
+            <element signature="docComment;method#book#0;class#Hotel#0" />
+            <element signature="e#2582#2645#0" />
+            <element signature="method#book#0;class#Hotel#0" />
+            <element signature="docComment;method#bookRoomWithId#0;class#Hotel#0" />
+            <element signature="e#3357#3397#0" />
+            <element signature="method#bookRoomWithId#0;class#Hotel#0" />
+            <element signature="e#5163#5243#0" />
+            <element signature="method#booking#0;class#Hotel#0" />
+            <element signature="method#updateBooking#0;class#Hotel#0" />
+            <element signature="method#deleteBooking#0;class#Hotel#0" />
+            <element signature="method#confirmBooking#0;class#Hotel#0" />
+            <element signature="method#completeBooking#0;class#Hotel#0" />
+            <element signature="method#getPrincipal#0;class#Hotel#0" />
+            <element signature="docComment;method#isAnonymous#0;class#Hotel#0" />
+            <element signature="method#isAnonymous#0;class#Hotel#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/rukus/security/Security.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="23" column="56" lean-forward="true" selection-start-line="23" selection-start-column="56" selection-end-line="23" selection-end-column="56" />
         </state>
       </provider>
     </entry>

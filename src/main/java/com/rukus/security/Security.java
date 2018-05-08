@@ -52,6 +52,7 @@ public class Security extends WebSecurityConfigurerAdapter {
     /**
      * Defining custom user authentication implementation for using across app
      */
+    @Lazy
     @Bean
     public DaoAuthenticationProvider authenticationProvider() {
         DaoAuthenticationProvider authenticationProvider = new DaoAuthenticationProvider();
@@ -60,11 +61,13 @@ public class Security extends WebSecurityConfigurerAdapter {
         return authenticationProvider;
     }
 
+    @Lazy
     @Bean
     public AuthenticationTrustResolver getAuthenticationTrustResolver() {
         return new AuthenticationTrustResolverImpl();
     }
 
+    @Lazy
     @Bean
     public AuthenticationPrincipalArgumentResolver getAuthenticationPrincipalArgumentResolver() {
         return new AuthenticationPrincipalArgumentResolver();
