@@ -8,7 +8,6 @@
   <component name="ChangeListManager">
     <list default="true" id="89bfb5a6-6527-4f5b-a6a2-7079042816a1" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/rukus/controller/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rukus/controller/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -151,8 +150,8 @@
       <file leaf-file-name="admin.jsp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="428">
-              <caret line="264" column="72" lean-forward="true" selection-start-line="264" selection-start-column="72" selection-end-line="264" selection-end-column="72" />
+            <state relative-caret-position="299">
+              <caret line="406" column="55" lean-forward="true" selection-start-line="406" selection-start-column="55" selection-end-line="406" selection-end-column="55" />
               <folding>
                 <element signature="n#head#0;n#html#0;n#!!top" />
                 <element signature="n#script#1;n#head#0;n#html#0;n#!!top" />
@@ -240,28 +239,6 @@
                 <element signature="n#h4#0;n#div#0;n#div#3;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#c:otherwise#0;n#c:choose#3;n#jsp:root#0;n#!!top" />
                 <element signature="n#h4#0;n#div#0;n#div#4;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#5;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#0;n#div#5;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#c:choose#4;n#jsp:root#0;n#!!top" />
-                <element signature="n#c:when#0;n#c:choose#4;n#jsp:root#0;n#!!top" />
-                <element signature="n#table#0;n#div#0;n#div#5;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#thead#0;n#table#0;n#div#0;n#div#5;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#tr#0;n#thead#0;n#table#0;n#div#0;n#div#5;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#tbody#0;n#table#0;n#div#0;n#div#5;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#c:forEach#0;n#c:when#0;n#c:choose#4;n#jsp:root#0;n#!!top" />
-                <element signature="n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#5;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#c:choose#0;n#c:forEach#0;n#c:when#0;n#c:choose#4;n#jsp:root#0;n#!!top" />
-                <element signature="n#c:when#0;n#c:choose#0;n#c:forEach#0;n#c:when#0;n#c:choose#4;n#jsp:root#0;n#!!top" />
-                <element signature="n#c:otherwise#0;n#c:choose#0;n#c:forEach#0;n#c:when#0;n#c:choose#4;n#jsp:root#0;n#!!top" />
-                <element signature="n#td#4;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#5;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#button#0;n#td#4;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#5;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#0;n#tbody#0;n#table#0;n#div#0;n#div#5;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#0;n#div#0;n#tbody#0;n#table#0;n#div#0;n#div#5;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#0;n#div#0;n#div#0;n#tbody#0;n#table#0;n#div#0;n#div#5;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#tbody#0;n#table#0;n#div#0;n#div#5;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#button#0;n#div#0;n#div#0;n#div#0;n#div#0;n#tbody#0;n#table#0;n#div#0;n#div#5;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#h4#0;n#div#0;n#div#0;n#div#0;n#div#0;n#tbody#0;n#table#0;n#div#0;n#div#5;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#tbody#0;n#table#0;n#div#0;n#div#5;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#c:otherwise#0;n#c:choose#4;n#jsp:root#0;n#!!top" />
                 <element signature="n#h4#0;n#div#0;n#div#5;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#6;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -357,7 +334,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Hyatt</find>
       <find>logger</find>
       <find>&lt;sec:authorize access=&quot;hasRole('ADMIN')&quot;</find>
       <find>MANAGER</find>
@@ -387,6 +363,7 @@
       <find>type</find>
       <find>description</find>
       <find>light-blue-text</find>
+      <find>booking.comment</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -728,7 +705,7 @@
       <workItem from="1525252158449" duration="390000" />
       <workItem from="1525333935062" duration="1312000" />
       <workItem from="1525679655682" duration="3224000" />
-      <workItem from="1525756567124" duration="2535000" />
+      <workItem from="1525756567124" duration="2635000" />
     </task>
     <task id="LOCAL-00001" summary="- Updated project base on Spring Boot&#10;- Used spring jpa repositories">
       <created>1521026834655</created>
@@ -842,11 +819,18 @@
       <option name="project" value="LOCAL" />
       <updated>1525682424900</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="masd">
+      <created>1525759140507</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1525759140508</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="134059000" />
+    <option name="totallyTimeSpent" value="134159000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -939,7 +923,8 @@
     <MESSAGE value="- Changed datasource for heroku" />
     <MESSAGE value="- added variables in properties" />
     <MESSAGE value="- Implemented cloudinary" />
-    <option name="LAST_COMMIT_MESSAGE" value="- Implemented cloudinary" />
+    <MESSAGE value="masd" />
+    <option name="LAST_COMMIT_MESSAGE" value="masd" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1400,8 +1385,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="428">
-          <caret line="264" column="72" lean-forward="true" selection-start-line="264" selection-start-column="72" selection-end-line="264" selection-end-column="72" />
+        <state relative-caret-position="299">
+          <caret line="406" column="55" lean-forward="true" selection-start-line="406" selection-start-column="55" selection-end-line="406" selection-end-column="55" />
           <folding>
             <element signature="n#head#0;n#html#0;n#!!top" />
             <element signature="n#script#1;n#head#0;n#html#0;n#!!top" />
@@ -1489,28 +1474,6 @@
             <element signature="n#h4#0;n#div#0;n#div#3;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#c:otherwise#0;n#c:choose#3;n#jsp:root#0;n#!!top" />
             <element signature="n#h4#0;n#div#0;n#div#4;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#5;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#5;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#c:choose#4;n#jsp:root#0;n#!!top" />
-            <element signature="n#c:when#0;n#c:choose#4;n#jsp:root#0;n#!!top" />
-            <element signature="n#table#0;n#div#0;n#div#5;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#thead#0;n#table#0;n#div#0;n#div#5;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#tr#0;n#thead#0;n#table#0;n#div#0;n#div#5;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#tbody#0;n#table#0;n#div#0;n#div#5;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#c:forEach#0;n#c:when#0;n#c:choose#4;n#jsp:root#0;n#!!top" />
-            <element signature="n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#5;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#c:choose#0;n#c:forEach#0;n#c:when#0;n#c:choose#4;n#jsp:root#0;n#!!top" />
-            <element signature="n#c:when#0;n#c:choose#0;n#c:forEach#0;n#c:when#0;n#c:choose#4;n#jsp:root#0;n#!!top" />
-            <element signature="n#c:otherwise#0;n#c:choose#0;n#c:forEach#0;n#c:when#0;n#c:choose#4;n#jsp:root#0;n#!!top" />
-            <element signature="n#td#4;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#5;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#button#0;n#td#4;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#5;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#tbody#0;n#table#0;n#div#0;n#div#5;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#0;n#tbody#0;n#table#0;n#div#0;n#div#5;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#tbody#0;n#table#0;n#div#0;n#div#5;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#tbody#0;n#table#0;n#div#0;n#div#5;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#button#0;n#div#0;n#div#0;n#div#0;n#div#0;n#tbody#0;n#table#0;n#div#0;n#div#5;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#h4#0;n#div#0;n#div#0;n#div#0;n#div#0;n#tbody#0;n#table#0;n#div#0;n#div#5;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#tbody#0;n#table#0;n#div#0;n#div#5;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#c:otherwise#0;n#c:choose#4;n#jsp:root#0;n#!!top" />
             <element signature="n#h4#0;n#div#0;n#div#5;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#6;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
