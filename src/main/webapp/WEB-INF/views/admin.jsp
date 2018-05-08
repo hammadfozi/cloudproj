@@ -299,7 +299,6 @@
                                         <th>No</th>
                                         <th>Room</th>
                                         <th>People</th>
-                                        <th>Comment</th>
                                         <th>Arrival Time</th>
                                         <th>Departure Time</th>
                                         <th>Booked By</th>
@@ -312,12 +311,6 @@
                                             <td>${booking.id}</td>
                                             <td>${booking.room.name}</td>
                                             <td>${booking.people}</td>
-                                            <td>
-                                                <button type="button"
-                                                        class="btn grey btn-sm table-actions-buttons"
-                                                        data-toggle="modal" data-target="#${booking.id}c">View
-                                                </button>
-                                            </td>
                                             <td>${booking.arrivalTime}</td>
                                             <td>${booking.departureTime}</td>
                                             <td>${booking.user.email}</td>
@@ -331,26 +324,6 @@
                                             </td>
                                         </tr>
                                     </c:forEach>
-                                    <div class="modal hide fade" id="${booking.id}f" tabindex="-1" role="dialog"
-                                         aria-labelledby="company-about-label"
-                                         aria-hidden="true" style="display: none;">
-                                        <div class="modal-dialog modal-sm">
-                                            <div class="modal-content">
-                                                <div class="modal-header">
-                                                    <button type="button" class="close" data-dismiss="modal"
-                                                            aria-hidden="true"
-                                                            style="font-size: 12px;">CLOSE
-                                                    </button>
-                                                    <h4 class="modal-title" id="confirmedroooms"
-                                                        style="float: left">${booking.room.name}
-                                                    </h4>
-                                                </div>
-                                                <div class="modal-body">
-                                                    <p>Description: ${booking.comment}</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
                                     </tbody>
                                 </table>
                             </c:when>
@@ -374,7 +347,6 @@
                                         <th>No</th>
                                         <th>Booked Room</th>
                                         <th>People</th>
-                                        <th>Comment</th>
                                         <th>Arrival Time</th>
                                         <th>Departure Time</th>
                                         <th>Booked By</th>
@@ -386,37 +358,11 @@
                                             <td>${booking.id}</td>
                                             <td>${booking.roomBooked}</td>
                                             <td>${booking.people}</td>
-                                            <td>
-                                                <button type="button"
-                                                        class="btn grey btn-sm table-actions-buttons"
-                                                        data-toggle="modal" data-target="#${booking.id}c">View
-                                                </button>
-                                            </td>
                                             <td>${booking.arrivalTime}</td>
                                             <td>${booking.departureTime}</td>
                                             <td>${booking.user.email}</td>
                                         </tr>
                                     </c:forEach>
-                                    <div class="modal hide fade" id="${booking.id}c" tabindex="-1" role="dialog"
-                                         aria-labelledby="company-about-label"
-                                         aria-hidden="true" style="display: none;">
-                                        <div class="modal-dialog modal-sm">
-                                            <div class="modal-content">
-                                                <div class="modal-header">
-                                                    <button type="button" class="close" data-dismiss="modal"
-                                                            aria-hidden="true"
-                                                            style="font-size: 12px;">CLOSE
-                                                    </button>
-                                                    <h4 class="modal-title" id="completedroooms"
-                                                        style="float: left">${booking.room.name}
-                                                    </h4>
-                                                </div>
-                                                <div class="modal-body">
-                                                    <p>Description: ${booking.comment}</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
                                     </tbody>
                                 </table>
                             </c:when>

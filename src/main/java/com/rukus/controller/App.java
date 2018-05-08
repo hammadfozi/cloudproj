@@ -117,7 +117,7 @@ public class App {
             User user = new User();
             model.addAttribute("user", user);
             model.addAttribute("edit", false);
-            model.addAttribute("loggedinuser", getPrincipal());
+            model.addAttribute("loggedinuser", getPrincipal()); // TODO: Fix Issue [LOGIN]
             return "register";
         } else {
             return "redirect:/";
